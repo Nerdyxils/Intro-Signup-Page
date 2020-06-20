@@ -1,9 +1,9 @@
-var numberErrors = 0;
 var firstName = document.getElementById('firstName');
 var lastName = document.getElementById('lastName');
 var myEmail = document.getElementById('Email');
 var myPassword = document.getElementById('Password');
 var myButton = document.getElementById('button');
+var numberErrors = 0;
 
 
 function validateBlankInput (userInput, errorIcon, errorText) {
